@@ -4,8 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8A2E1084-D2DE-4743-8F5C-399CAB737196}"
+	ProjectSection(ProjectDependencies) = postProject
+		{331A8392-D6B9-4C11-AED7-9CF512A4B5FE} = {331A8392-D6B9-4C11-AED7-9CF512A4B5FE}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Duck.Service.Tasks", "Duck.Service.Tasks\Duck.Service.Tasks.csproj", "{EE36277B-20C0-43FE-8B38-38A3BF903E7E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{331A8392-D6B9-4C11-AED7-9CF512A4B5FE} = {331A8392-D6B9-4C11-AED7-9CF512A4B5FE}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Tasks", "Core.Tasks\Core.Tasks.csproj", "{331A8392-D6B9-4C11-AED7-9CF512A4B5FE}"
 EndProject

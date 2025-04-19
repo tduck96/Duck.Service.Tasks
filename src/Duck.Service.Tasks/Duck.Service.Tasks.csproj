@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Core.Tasks\Core.Tasks.csproj" />
   </ItemGroup>
 
 </Project>
