@@ -2,7 +2,7 @@
 
 `Dumb simple microservice for handling the most mundane dev task ever: tracking tasks that need to get done.`
 
-This is a stripped-down task tracking microservice built for practice and portfolio purposes. It's an excuse to implement clean patterns — things I’d normally use at work but rarely get to build out from scratch for small features.
+Just a humble to-do list service — built with the kind of architecture you'd normally reserve for, well, not a to-do list.
 
 Built with .NET, MongoDB, RabbitMQ, and Docker Compose. Frontend coming soon in Angular.
 
