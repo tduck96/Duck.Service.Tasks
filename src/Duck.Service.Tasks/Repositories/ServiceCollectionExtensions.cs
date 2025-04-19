@@ -1,5 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection.Extensions;
-using Tasks.Core.Repositories;
+﻿using Core.Tasks.Repositories;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace Duck.Service.Tasks.Repositories;
 

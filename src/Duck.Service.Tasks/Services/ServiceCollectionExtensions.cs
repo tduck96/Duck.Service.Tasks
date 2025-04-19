@@ -1,17 +1,15 @@
-﻿using Duck.Service.Tasks.Repositories;
+﻿using Core.Tasks.Services;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using Tasks.Core.Interfaces;
-using Tasks.Core.Repositories;
 
-namespace Duck.Service.Tasks.Services
+
+namespace Duck.Service.Tasks.Services;
+
+public static class ServiceCollectionExtensions
 {
-    public static class ServiceCollectionExtensions
+    public static IServiceCollection AddServices(this IServiceCollection services)
     {
-        public static IServiceCollection AddServices(this IServiceCollection services)
-        {
-            services.TryAddTransient<IDuckTaskService, DuckTaskService>();
+        services.TryAddTransient<IDuckTaskService, DuckTaskService>();
 
-            return services;
-        }
+        return services;
     }
 }

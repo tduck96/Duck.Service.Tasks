@@ -15,7 +15,7 @@ namespace Duck.Service.Tasks.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetDuckTask([FromRoute] Guid id, CancellationToken cancellationToken = default)
         {
-            var result = await taskService.GetTaskAsync(id, cancellationToken);
+            var result = await taskService.GetAsync(id, cancellationToken);
 
             return Ok(Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {

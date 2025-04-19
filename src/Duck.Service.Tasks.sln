@@ -7,6 +7,8 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Duck.Service.Tasks", "Duck.Service.Tasks\Duck.Service.Tasks.csproj", "{EE36277B-20C0-43FE-8B38-38A3BF903E7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Tasks", "Core.Tasks\Core.Tasks.csproj", "{331A8392-D6B9-4C11-AED7-9CF512A4B5FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EE36277B-20C0-43FE-8B38-38A3BF903E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE36277B-20C0-43FE-8B38-38A3BF903E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE36277B-20C0-43FE-8B38-38A3BF903E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331A8392-D6B9-4C11-AED7-9CF512A4B5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331A8392-D6B9-4C11-AED7-9CF512A4B5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331A8392-D6B9-4C11-AED7-9CF512A4B5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331A8392-D6B9-4C11-AED7-9CF512A4B5FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
