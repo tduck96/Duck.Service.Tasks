@@ -6,7 +6,7 @@ This is a stripped-down task tracking microservice built for practice and portfo
 
 Built with .NET, MongoDB, RabbitMQ, and Docker Compose. Frontend coming soon in Angular.
 
-###💡 Why This Exists
+## 💡 Why This Exists
 Because I wanted to:
 
 Build something simple but structured
