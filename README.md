@@ -22,9 +22,6 @@ Hook up an Angular frontend just for fun
 Show off some architecture chops in a portfolio-friendly package
 
 ### 🧱 Architecture
-text
-Copy
-Edit
 [Angular UI] <---> [Duck.Service.Tasks (.NET API)] ---> [RabbitMQ] ---> [Other Services - TBD]
                                   |
                               [MongoDB]
