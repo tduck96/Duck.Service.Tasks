@@ -25,6 +25,7 @@ Show off some architecture chops in a portfolio-friendly package
 [Angular UI] <---> [Duck.Service.Tasks (.NET API)] ---> [RabbitMQ] ---> [Other Services - TBD]
                                   |
                               [MongoDB]
+
 .NET API for managing task CRUD
 
 Emits events (task.created, task.updated, etc.) via RabbitMQ
