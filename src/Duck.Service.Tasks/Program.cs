@@ -14,12 +14,14 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+Console.WriteLine(app.Environment.IsDevelopment());
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 
 app.UseHttpsRedirection();
 
